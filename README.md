@@ -6,7 +6,7 @@
 
 ## What is this?
 
-CodeScopeAI is a full-stack SaaS app I built that automatically reviews pull requests using Claude AI. You connect your GitHub repos, and every time someone opens a PR, the app analyzes the code for security issues, bad patterns, performance problems, and general code smells. Then it posts a detailed review comment directly on the PR.
+CodeScopeAI is a full-stack app I built that automatically reviews pull requests using Claude AI. You connect your GitHub repos, and every time someone opens a PR, the app analyzes the code for security issues, bad patterns, performance problems, and general code smells. Then it posts a detailed review comment directly on the PR.
 
 Think of it like having a senior dev who never sleeps looking at every PR you push.
 
