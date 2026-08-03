@@ -62,7 +62,7 @@ Since Claude API calls cost money, I built in some guardrails:
 - **Token estimation** before calling the API — truncates intelligently if needed
 - **Response caching** with SHA256 content hashing — same code = free review
 - **Tiered rate limits** — starter gets 10 reviews/day, pro gets 50, enterprise is unlimited
-- **Model fallback chain** — tries Claude 4.5 Haiku first (cheapest), falls back to 3.5 Haiku
+- **Model fallback chain** — tries Claude 4.5 Haiku first (cheapest), falls back to 5 sonnet / 4.6 Opus
 
 ---
 
